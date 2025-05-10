@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gouken/Документы/UNIVER/Works/Random/2x2cube
+CMAKE_SOURCE_DIR = /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gouken/Документы/UNIVER/Works/Random/2x2cube/build
+CMAKE_BINARY_DIR = /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RubiksCube2x2.dir/depend.make
@@ -73,46 +73,46 @@ CMakeFiles/RubiksCube2x2.dir/codegen:
 .PHONY : CMakeFiles/RubiksCube2x2.dir/codegen
 
 CMakeFiles/RubiksCube2x2.dir/main.cpp.o: CMakeFiles/RubiksCube2x2.dir/flags.make
-CMakeFiles/RubiksCube2x2.dir/main.cpp.o: /home/gouken/Документы/UNIVER/Works/Random/2x2cube/main.cpp
+CMakeFiles/RubiksCube2x2.dir/main.cpp.o: /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/main.cpp
 CMakeFiles/RubiksCube2x2.dir/main.cpp.o: CMakeFiles/RubiksCube2x2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gouken/Документы/UNIVER/Works/Random/2x2cube/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RubiksCube2x2.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RubiksCube2x2.dir/main.cpp.o -MF CMakeFiles/RubiksCube2x2.dir/main.cpp.o.d -o CMakeFiles/RubiksCube2x2.dir/main.cpp.o -c /home/gouken/Документы/UNIVER/Works/Random/2x2cube/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RubiksCube2x2.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RubiksCube2x2.dir/main.cpp.o -MF CMakeFiles/RubiksCube2x2.dir/main.cpp.o.d -o CMakeFiles/RubiksCube2x2.dir/main.cpp.o -c /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/main.cpp
 
 CMakeFiles/RubiksCube2x2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RubiksCube2x2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gouken/Документы/UNIVER/Works/Random/2x2cube/main.cpp > CMakeFiles/RubiksCube2x2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/main.cpp > CMakeFiles/RubiksCube2x2.dir/main.cpp.i
 
 CMakeFiles/RubiksCube2x2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RubiksCube2x2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gouken/Документы/UNIVER/Works/Random/2x2cube/main.cpp -o CMakeFiles/RubiksCube2x2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/main.cpp -o CMakeFiles/RubiksCube2x2.dir/main.cpp.s
 
 CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o: CMakeFiles/RubiksCube2x2.dir/flags.make
-CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o: /home/gouken/Документы/UNIVER/Works/Random/2x2cube/cube2x2.cpp
+CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o: /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/cube2x2.cpp
 CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o: CMakeFiles/RubiksCube2x2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gouken/Документы/UNIVER/Works/Random/2x2cube/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o -MF CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o.d -o CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o -c /home/gouken/Документы/UNIVER/Works/Random/2x2cube/cube2x2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o -MF CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o.d -o CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o -c /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/cube2x2.cpp
 
 CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gouken/Документы/UNIVER/Works/Random/2x2cube/cube2x2.cpp > CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/cube2x2.cpp > CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.i
 
 CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gouken/Документы/UNIVER/Works/Random/2x2cube/cube2x2.cpp -o CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/cube2x2.cpp -o CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.s
 
 CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o: CMakeFiles/RubiksCube2x2.dir/flags.make
-CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o: /home/gouken/Документы/UNIVER/Works/Random/2x2cube/cube_logic.cpp
+CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o: /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/cube_logic.cpp
 CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o: CMakeFiles/RubiksCube2x2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gouken/Документы/UNIVER/Works/Random/2x2cube/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o -MF CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o.d -o CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o -c /home/gouken/Документы/UNIVER/Works/Random/2x2cube/cube_logic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o -MF CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o.d -o CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o -c /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/cube_logic.cpp
 
 CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gouken/Документы/UNIVER/Works/Random/2x2cube/cube_logic.cpp > CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/cube_logic.cpp > CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.i
 
 CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gouken/Документы/UNIVER/Works/Random/2x2cube/cube_logic.cpp -o CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/cube_logic.cpp -o CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.s
 
 # Object files for target RubiksCube2x2
 RubiksCube2x2_OBJECTS = \
@@ -132,7 +132,7 @@ RubiksCube2x2: /usr/lib64/libsfml-graphics.so.2.6.2
 RubiksCube2x2: /usr/lib64/libsfml-window.so.2.6.2
 RubiksCube2x2: /usr/lib64/libsfml-system.so.2.6.2
 RubiksCube2x2: CMakeFiles/RubiksCube2x2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gouken/Документы/UNIVER/Works/Random/2x2cube/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable RubiksCube2x2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable RubiksCube2x2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RubiksCube2x2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -144,6 +144,6 @@ CMakeFiles/RubiksCube2x2.dir/clean:
 .PHONY : CMakeFiles/RubiksCube2x2.dir/clean
 
 CMakeFiles/RubiksCube2x2.dir/depend:
-	cd /home/gouken/Документы/UNIVER/Works/Random/2x2cube/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gouken/Документы/UNIVER/Works/Random/2x2cube /home/gouken/Документы/UNIVER/Works/Random/2x2cube /home/gouken/Документы/UNIVER/Works/Random/2x2cube/build /home/gouken/Документы/UNIVER/Works/Random/2x2cube/build /home/gouken/Документы/UNIVER/Works/Random/2x2cube/build/CMakeFiles/RubiksCube2x2.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/build /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/build /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/build/CMakeFiles/RubiksCube2x2.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/RubiksCube2x2.dir/depend
 

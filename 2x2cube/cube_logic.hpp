@@ -1,8 +1,8 @@
-#ifndef RUBIKS_LOGIC_HPP
-#define RUBIKS_LOGIC_HPP
+#ifndef CUBE_LOGIC_HPP
+#define CUBE_LOGIC_HPP
 
 #include <vector>
-#include "cube2x2.hpp" // Включаем cubelet.hpp для доступа к структуре Cubelet
+#include "cube2x2.hpp" // Включаем cube2x2.hpp для доступа к структуре Cubelet
 
 // Перечисление для представления граней кубика Рубика
 enum Face {

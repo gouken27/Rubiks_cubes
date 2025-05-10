@@ -1,5 +1,5 @@
-#ifndef CUBELET_HPP
-#define CUBELET_HPP
+#ifndef CUBE2X2_HPP
+#define CUBE2X2_HPP
 
 #include <SFML/Graphics.hpp>
 #include <array>

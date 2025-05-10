@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
-#include "cube2x2.hpp"      // Включаем cubelet.hpp
-#include "cube_logic.hpp" // Включаем rubiks_logic.hpp
+#include "cube2x2.hpp"      // Включаем cube2x2.hpp
+#include "cube_logic.hpp" // Включаем cube_logic.hpp
 
 int main() {
     // Размеры окна
@@ -16,10 +16,10 @@ int main() {
     std::vector<Cubelet> cubelets = initializeCubelets();
 
     // Размер кубика
-    float cubeletSize = 2.0f;
+    float cubeletSize = 1.0f;
 
     // Позиция и поворот камеры
-    sf::Vector3f cameraPosition(0.0f, 0.0f, -2.0f);
+    sf::Vector3f cameraPosition(0.0f, 0.0f, -5.0f);
     sf::Vector3f cameraRotation(0.0f, 0.0f, 0.0f);
 
     // Главный цикл игры
@@ -60,8 +60,9 @@ int main() {
 
             // Применяем трансформации камеры
             for (size_t i = 0; i < mesh.getVertexCount(); ++i) {
-                mesh[i].position.x += cameraPosition.x + windowWidth / 2;
-                mesh[i].position.y += cameraPosition.y + windowHeight / 2;
+                mesh[i].position += cameraPosition;
+                mesh[i].position.x +=  windowWidth / 2;
+                mesh[i].position.y +=  windowHeight / 2;
             }
             window.draw(mesh);
         }

@@ -1,5 +1,5 @@
 CMakeFiles/RubiksCube2x2.dir/main.cpp.o: \
- /home/gouken/Документы/UNIVER/Works/Random/2x2cube/main.cpp \
+ /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/main.cpp \
  /usr/include/stdc-predef.h /usr/include/SFML/Graphics.hpp \
  /usr/include/SFML/Window.hpp /usr/include/SFML/System.hpp \
  /usr/include/SFML/Config.hpp /usr/include/SFML/System/Clock.hpp \
@@ -222,6 +222,6 @@ CMakeFiles/RubiksCube2x2.dir/main.cpp.o: \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp /usr/include/c++/15/iostream \
  /usr/include/c++/15/istream /usr/include/c++/15/bits/istream.tcc \
- /home/gouken/Документы/UNIVER/Works/Random/2x2cube/cube2x2.hpp \
+ /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/cube2x2.hpp \
  /usr/include/c++/15/array /usr/include/c++/15/compare \
- /home/gouken/Документы/UNIVER/Works/Random/2x2cube/cube_logic.hpp
+ /home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/cube_logic.hpp

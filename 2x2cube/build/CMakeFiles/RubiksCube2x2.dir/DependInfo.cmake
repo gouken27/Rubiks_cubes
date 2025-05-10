@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/gouken/Документы/UNIVER/Works/Random/2x2cube/cube2x2.cpp" "CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o" "gcc" "CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o.d"
-  "/home/gouken/Документы/UNIVER/Works/Random/2x2cube/cube_logic.cpp" "CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o" "gcc" "CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o.d"
-  "/home/gouken/Документы/UNIVER/Works/Random/2x2cube/main.cpp" "CMakeFiles/RubiksCube2x2.dir/main.cpp.o" "gcc" "CMakeFiles/RubiksCube2x2.dir/main.cpp.o.d"
+  "/home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/cube2x2.cpp" "CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o" "gcc" "CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o.d"
+  "/home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/cube_logic.cpp" "CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o" "gcc" "CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o.d"
+  "/home/gouken/Документы/UNIVER/Works/Random/Rubiks_cubes/2x2cube/main.cpp" "CMakeFiles/RubiksCube2x2.dir/main.cpp.o" "gcc" "CMakeFiles/RubiksCube2x2.dir/main.cpp.o.d"
   "" "RubiksCube2x2" "gcc" "CMakeFiles/RubiksCube2x2.dir/link.d"
   )
 
