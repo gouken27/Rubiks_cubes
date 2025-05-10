@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/RubiksCube2x2.dir/link.d CMakeFiles/RubiksCube2x2.dir/main.cpp.o CMakeFiles/RubiksCube2x2.dir/cube2x2.cpp.o CMakeFiles/RubiksCube2x2.dir/cube_logic.cpp.o -o RubiksCube2x2  /usr/lib64/libsfml-graphics.so.2.6.2 /usr/lib64/libsfml-window.so.2.6.2 /usr/lib64/libsfml-system.so.2.6.2
